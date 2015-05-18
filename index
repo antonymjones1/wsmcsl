@@ -1,0 +1,54 @@
+</head>
+
+<body>	
+
+  <SiteHeader>
+
+    <!-- used for the sliding menu -->
+    <div data-role="page" id="pageone">
+      <div data-role="panel" id="myPanel"> 
+        <h2>Menu</h2>
+
+        <div class = "nav"
+        <div class = "container"
+        <div class = "nav">
+          <div class = "container">
+            <ul> 
+             <li>HOME</li>
+             <br>
+
+             <li>Division 1</li>
+             <br>
+             <li>Division 2</li>
+             <br>
+             <li>Division 3</li>
+             <br>
+             <li>Cups</li>
+             <br>
+             <li>Info</li>
+           </div>
+         </div>
+
+         <p>You can close the panel by clicking outside the panel, pressing the Esc key or by swiping.</p>
+       </div> 
+
+       <div data-role="header">  
+
+        <div class="header">
+          <img src="assets/buttons/logo.jpg" alt="LOGO" width="85" height="85">
+          <img src="assets/buttons/name.jpg" alt="name" width="569" height="66" vspace="9">
+        </div> 
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
+      </div>
+
+      <div data-role="footer">
+        <h1>This is the Page Footer</h1>
+      </div> 
+    </div> 
+  </SiteHeader>
+  <!-- End of the sliding menu -->
+
+</body>
