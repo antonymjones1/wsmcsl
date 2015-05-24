@@ -1,46 +1,13 @@
-.nav {
-	color: black;
-	font-size :20px ;
-}
-
-.navold li {
-	display: inline-block;
-	margin-right: 20px ;
-}
-
-.navold li:hover{
-	background-color:lightgrey;
-}
-
-
-.nav li {
-	width: 200px;
-	margin-right: 5px ;
-	-moz-transition: all 0.2s linear;
-	-webkit-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
-	transition: all 0.2s linear;
-}
-
-.nav li:hover {
-	background: lightgrey;
-}
-
-.header {
-	background-color: white;
-}
-
-.cbp-spmenu{
+/* General styles for all menus */
+.cbp-spmenu {
 	background: #47a3da;
 	position: fixed;
 }
 
-/*General styles for all menus*/
-
 .cbp-spmenu h3 {
 	color: #afdefa;
 	font-size: 1.9em;
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 	font-weight: 300;
 	background: #0d77b6;
@@ -51,9 +18,16 @@
 	color: #fff;
 	font-size: 1.1em;
 	font-weight: 300;
-	
 }
 
+.cbp-spmenu a:hover {
+	background: #258ecd;
+}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
 
 /* Orientation-dependent styles for the content of the menu */
 
